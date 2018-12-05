@@ -1,38 +1,62 @@
-body
+body, html
 {
 	background-color: DarkTurquoise;
 	color: black;
+	margin: 0px;
+	padding: 0px;
+	min-height: 100vh;
+	display: grid;
+}
+body
+{
+	display: grid;
+	overflow: hidden;
 }
 #main-frame, #site-hat
 {
-	margin-left: 150px;
-	margin-right: 150px;
+	margin: 0 18vw;
 }
 #site-hat
 {
-	height: 180px;
+	height: 150px;
 }
 #company-title
 {
 	position: relative;
 	text-align: center;
-	bottom: 100px;
+	bottom: 50px;
 }
 #company-title h2
 {
 	color: MediumVioletRed;
 }
+#company-logo
+{
+	width: 100px;
+	height: 50px;
+}
+#company-logo img
+{
+	width: 100px;
+	height: 50px;
+}
 #main-frame
 {
 	background-color: silver;
-	height: 850px;
 	text-shadow: 2px 2px 0 #aaaaaa;
+	min-height: 100vh;
+	max-height: 100vh;
 }
 #buy-bought-bought
 {
 	position: relative;
 	text-align: right;
-	bottom: 235px;
+	bottom: 150px;
+}
+
+#buy-bought-bought img
+{
+	width: 100px;
 }
 
 #buttons
@@ -43,6 +67,11 @@ body
 #frame-title
 {
 	text-align: center;
+}
+
+.items
+{
+	position: inherit;
 }
 
 .xbutton
@@ -79,7 +108,8 @@ a:hover
 .item
 {
 	background-color: lightgreen;
-	height: 200px;
+	min-height: 20px;
+	max-height: 200px;
 	margin: 10px;
 	margin-top: 15px;
 	box-shadow: 4px 4px #999999
